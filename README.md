@@ -30,7 +30,7 @@ Software Engineer with 7+ years of experience specializing in Front-End developm
 - Implemented accessibility (a11y) and ADA compliance initiatives within the application, ensuring inclusivity.
 - Maintained the internal administration panel and provided dedicated support for the app on the VTEX e-commerce platform.
 
-**Developer I** | *July/2019 - June/2020*
+**Front End Developer** | *July/2019 - June/2020*
 - Implemented seamless client integrations with the Virtual Fitting Room.
 - Contributed to the development of organizational structures within the growing engineering team.
 
