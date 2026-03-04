@@ -8,23 +8,23 @@
       body {
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         line-height: 1.5;
-        color: #333;
+        color: #f0f0f0;
         max-width: 850px;
         margin: 0 auto;
         padding: 40px;
-        background-color: #fff;
+        background-color: #000;
       }
       h1 {
         font-size: 28px;
         margin-bottom: 5px;
-        color: #000;
+        color: #fff;
         text-transform: uppercase;
         letter-spacing: 1px;
       }
       h2 {
         font-size: 16px;
-        color: #444;
-        border-bottom: 1px solid #000;
+        color: #ddd;
+        border-bottom: 1px solid #555;
         padding-bottom: 5px;
         margin-top: 25px;
         margin-bottom: 15px;
@@ -35,7 +35,7 @@
         font-size: 15px;
         margin-bottom: 5px;
         margin-top: 15px;
-        color: #000;
+        color: #fff;
       }
       p {
         margin: 0 0 10px 0;
@@ -44,10 +44,10 @@
       .contact-info {
         font-size: 14px;
         margin-bottom: 25px;
-        color: #555;
+        color: #bbb;
       }
       .contact-info a {
-        color: #555;
+        color: #8ab4f8;
         text-decoration: none;
       }
       .job-header {
@@ -66,7 +66,7 @@
       }
       .date {
         font-style: italic;
-        color: #666;
+        color: #aaa;
         font-size: 14px;
       }
       .role-header {
@@ -102,7 +102,14 @@
       @media print {
         body {
           padding: 0;
+          background-color: #fff;
+          color: #000;
         }
+        h1, h3 { color: #000; }
+        h2 { color: #444; border-bottom: 1px solid #000; }
+        .contact-info { color: #555; }
+        .contact-info a { color: #555; }
+        .date { color: #666; }
       }
     </style>
   </head>
